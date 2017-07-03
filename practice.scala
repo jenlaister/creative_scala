@@ -81,6 +81,9 @@ val ground =
 val image = (coloredTarget above stand above ground).draw
 }
 
+//archery target stand
+
+
 
 object Houses {
   val roof = Image.triangle(50, 30) fillColor Color.brown
@@ -118,4 +121,4 @@ val image = ((
 ) lineWidth 0).draw
 }
 
-//archery target stand
+//draws a row of houses

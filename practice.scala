@@ -4,30 +4,30 @@ import doodle.syntax._
 import doodle.jvm.Java2DCanvas._
 import doodle.backend.StandardInterpreter._
 
-// object Example {
-//   (circle(100) fillColor Color.paleGoldenrod lineColor Color.indianRed).draw
-// }
-//
-// object Dot {
-//   (circle(100) fillColor (Color.red desaturate 0.6.normalized)).draw
-// }
-//
-// object Boop {
-//   (circle(350) fillColor Color.red).draw
-// }
-//
-// object Hola {
-//   val hi = "Hi!"
-// }
-//
-// object Bonjour {
-//   val good = "Good"
-//   {
-//     val morning = "good" ++ " morning"
-//     val toYou = "morning" ++ " to you"
-//   }
-//   val day = "good" ++ " day, sir!"
-// }
+object Example {
+  (circle(100) fillColor Color.paleGoldenrod lineColor Color.indianRed).draw
+}
+
+object Dot {
+  (circle(100) fillColor (Color.red desaturate 0.6.normalized)).draw
+}
+
+object Boop {
+  (circle(350) fillColor Color.red).draw
+}
+
+object Hola {
+  val hi = "Hi!"
+}
+
+object Bonjour {
+  val good = "Good"
+  {
+    val morning = "good" ++ " morning"
+    val toYou = "morning" ++ " to you"
+  }
+  val day = "good" ++ " day, sir!"
+}
 
 object Line {
 (

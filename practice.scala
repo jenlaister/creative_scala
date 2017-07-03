@@ -8,42 +8,52 @@ object MellowYellow {
   (circle(100) fillColor Color.paleGoldenrod lineColor Color.indianRed).draw
 }
 
-object Hola {
+// draws a yellow circle with a red outline
+
+object Hi {
   val hi = "Hi!"
 }
 
+// variable setting
+
 // object Morning {
 //   val good = "Good"
-//   (
+//   // Create a new scope
+//   {
 //     val morning = "good" ++ " morning"
 //     val toYou = "morning" ++ " to you"
-//   )
+//   }
 //   val day = "good" ++ " day, sir!"
 // }
 
-// object Line {
-// (
-//   Image.rectangle(40, 40).
-//     lineWidth(5.0).
-//     lineColor(Color.royalBlue.spin(30.degrees)).
-//     fillColor(Color.royalBlue) beside
-//   Image.rectangle(40, 40).
-//     lineWidth(5.0).
-//     lineColor(Color.royalBlue.spin(30.degrees)).
-//     fillColor(Color.royalBlue) beside
-//   Image.rectangle(40, 40).
-//     lineWidth(5.0).
-//     lineColor(Color.royalBlue.spin(30.degrees)).
-//     fillColor(Color.royalBlue) beside
-//   Image.rectangle(40, 40).
-//     lineWidth(5.0).
-//     lineColor(Color.royalBlue.spin(30.degrees)).
-//     fillColor(Color.royalBlue) beside
-//   Image.rectangle(40, 40).
-//     lineWidth(5.0).
-//     lineColor(Color.royalBlue.spin(30.degrees)).
-//     fillColor(Color.royalBlue)
-// )}
+//scope
+
+object Line {
+(
+  Image.rectangle(40, 40).
+    lineWidth(5.0).
+    lineColor(Color.royalBlue.spin(30.degrees)).
+    fillColor(Color.royalBlue) beside
+  Image.rectangle(40, 40).
+    lineWidth(5.0).
+    lineColor(Color.royalBlue.spin(30.degrees)).
+    fillColor(Color.royalBlue) beside
+  Image.rectangle(40, 40).
+    lineWidth(5.0).
+    lineColor(Color.royalBlue.spin(30.degrees)).
+    fillColor(Color.royalBlue) beside
+  Image.rectangle(40, 40).
+    lineWidth(5.0).
+    lineColor(Color.royalBlue.spin(30.degrees)).
+    fillColor(Color.royalBlue) beside
+  Image.rectangle(40, 40).
+    lineWidth(5.0).
+    lineColor(Color.royalBlue.spin(30.degrees)).
+    fillColor(Color.royalBlue)
+).draw
+}
+
+//row of blue
 
 object Meow {
   val box =
@@ -52,6 +62,8 @@ object Meow {
     lineColor(Color.royalBlue.spin(30.degrees)).
     fillColor(Color.royalBlue).draw
 }
+
+//one blue square outlined by red
 
 object Archery {
   val coloredTarget =
@@ -105,3 +117,5 @@ val image = ((
   houseAndGarden
 ) lineWidth 0).draw
 }
+
+//archery target stand

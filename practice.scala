@@ -4,55 +4,46 @@ import doodle.syntax._
 import doodle.jvm.Java2DCanvas._
 import doodle.backend.StandardInterpreter._
 
-object Example {
+object MellowYellow {
   (circle(100) fillColor Color.paleGoldenrod lineColor Color.indianRed).draw
-}
-
-object Dot {
-  (circle(100) fillColor (Color.red desaturate 0.6.normalized)).draw
-}
-
-object Boop {
-  (circle(350) fillColor Color.red).draw
 }
 
 object Hola {
   val hi = "Hi!"
 }
 
-object Bonjour {
-  val good = "Good"
-  {
-    val morning = "good" ++ " morning"
-    val toYou = "morning" ++ " to you"
-  }
-  val day = "good" ++ " day, sir!"
-}
+// object Morning {
+//   val good = "Good"
+//   (
+//     val morning = "good" ++ " morning"
+//     val toYou = "morning" ++ " to you"
+//   )
+//   val day = "good" ++ " day, sir!"
+// }
 
-object Line {
-(
-  Image.rectangle(40, 40).
-    lineWidth(5.0).
-    lineColor(Color.royalBlue.spin(30.degrees)).
-    fillColor(Color.royalBlue) beside
-  Image.rectangle(40, 40).
-    lineWidth(5.0).
-    lineColor(Color.royalBlue.spin(30.degrees)).
-    fillColor(Color.royalBlue) beside
-  Image.rectangle(40, 40).
-    lineWidth(5.0).
-    lineColor(Color.royalBlue.spin(30.degrees)).
-    fillColor(Color.royalBlue) beside
-  Image.rectangle(40, 40).
-    lineWidth(5.0).
-    lineColor(Color.royalBlue.spin(30.degrees)).
-    fillColor(Color.royalBlue) beside
-  Image.rectangle(40, 40).
-    lineWidth(5.0).
-    lineColor(Color.royalBlue.spin(30.degrees)).
-    fillColor(Color.royalBlue)
-)
-}
+// object Line {
+// (
+//   Image.rectangle(40, 40).
+//     lineWidth(5.0).
+//     lineColor(Color.royalBlue.spin(30.degrees)).
+//     fillColor(Color.royalBlue) beside
+//   Image.rectangle(40, 40).
+//     lineWidth(5.0).
+//     lineColor(Color.royalBlue.spin(30.degrees)).
+//     fillColor(Color.royalBlue) beside
+//   Image.rectangle(40, 40).
+//     lineWidth(5.0).
+//     lineColor(Color.royalBlue.spin(30.degrees)).
+//     fillColor(Color.royalBlue) beside
+//   Image.rectangle(40, 40).
+//     lineWidth(5.0).
+//     lineColor(Color.royalBlue.spin(30.degrees)).
+//     fillColor(Color.royalBlue) beside
+//   Image.rectangle(40, 40).
+//     lineWidth(5.0).
+//     lineColor(Color.royalBlue.spin(30.degrees)).
+//     fillColor(Color.royalBlue)
+// )}
 
 object Meow {
   val box =
